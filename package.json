@@ -1,0 +1,26 @@
+{
+  "name": "EPAM_Workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-mustache": "^4.1.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.4.1",
+    "mustache": "^3.1.0",
+    "node-normalize-scss": "^8.0.1"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Bohdan Lysov",
+  "license": "ISC"
+}

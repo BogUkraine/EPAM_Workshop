@@ -1,0 +1,29 @@
+// Common
+
+@import 'includes/_variables';
+@import 'includes/_mixins';
+
+// CSS
+
+@import 'blocks/_generic';
+@import 'blocks/_layout';
+@import 'blocks/_header';
+@import 'blocks/_menu';
+@import 'blocks/_asider';
+@import 'blocks/_content';
+@import 'blocks/_advert';
+@import 'blocks/_main';
+@import 'blocks/_participants';
+@import 'blocks/_footer';
+@import 'blocks/_photos';
+@import 'blocks/_events';
+@import 'blocks/_help';
+@import 'blocks/_contacts';
+@import 'blocks/_offices';
+
+// Font Awesome
+
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid";

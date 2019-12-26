@@ -1,0 +1,44 @@
+.header {
+  padding: 15px 0 20px 0;
+  background-color: $dark-dark-gray;
+  height: 40px;
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__toggler {
+    padding: 11px 21px;
+    border: 1px solid $white;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &::after {
+      content: '+';
+      margin-left: 13px;
+    }
+  }
+
+  &__misc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  &__icon {
+    color: $white;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+}

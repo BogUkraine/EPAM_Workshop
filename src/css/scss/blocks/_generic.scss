@@ -1,0 +1,23 @@
+body {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+a {
+  color: $oceanic;
+  text-decoration: none;
+}
+
+h2, h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+h1 {
+  letter-spacing: 6px;
+}

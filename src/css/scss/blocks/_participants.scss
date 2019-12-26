@@ -1,0 +1,25 @@
+.participants {
+
+    &__title {
+        color: $oceanic;
+        margin-bottom: 40px;
+    }
+
+    &__job_title {
+        display: block;
+        margin: 10px 0;
+    }
+
+    &__e_mail {
+        display: block;
+        margin: 10px 0;
+    }
+
+    &__name {
+        margin-top: 40px;
+    }
+}
+
+.participants > * {
+    text-transform: uppercase;
+}

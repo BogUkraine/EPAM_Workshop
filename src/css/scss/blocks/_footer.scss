@@ -1,0 +1,29 @@
+.footer {
+
+    padding: 22px 0;
+    background-color: $dark-dark-gray;
+
+    &__text {
+        color: $light-silver;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icon {
+        color: $white;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    &__misc {
+        display: flex;
+        justify-content: space-between;
+        width: 70px;
+    }
+
+}

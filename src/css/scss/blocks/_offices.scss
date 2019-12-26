@@ -1,0 +1,44 @@
+.offices {
+
+    margin: 100px 0 200px 0;
+
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        margin: 60px 0 80px 0;
+    }
+
+    &__images {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__image {
+        width: 300px;
+        height: 300px;
+    }
+
+    &__item {
+
+        padding-left: 40px;
+
+        &:not(:first-child)::before {
+            content: '';
+            margin-right: 40px;
+        }
+
+        &:last-child::after {
+            content: '';
+            padding-right: 60px;
+        }
+    }
+
+    
+
+}

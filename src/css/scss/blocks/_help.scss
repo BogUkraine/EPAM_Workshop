@@ -1,0 +1,12 @@
+.help {
+
+    padding-bottom: 100px;
+    border-bottom: 1px solid $light-silver;
+
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 65px;
+    }
+}

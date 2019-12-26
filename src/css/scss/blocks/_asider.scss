@@ -1,0 +1,36 @@
+.asider {
+
+    &__content {
+        background-color: $light-silver;
+        border-radius: 8px;
+        padding: 30px 50px;
+        margin-top: 25px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    &__btn {
+        width: 322px;
+        height: 58px;
+        color: $white;
+        background-color: $oceanic;
+        border-radius: 10px;
+        border: 0;
+    }
+
+    &__phone_number {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__twitter, &__online, &__phone {
+        margin: 40px  0;
+    }
+
+    &__italic {
+        font-style: italic;
+    }
+}

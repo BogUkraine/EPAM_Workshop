@@ -1,0 +1,24 @@
+.menu {
+  @include list-reset();
+  display: flex;
+
+  &__item {
+    padding-left: 18px;
+
+    &:not(:first-child)::before {
+      content: '';
+      width: 0;
+      height: 16px;
+      margin-right: 18px;
+      border-left: 1px solid $silver;
+      border-right: 1px solid $dark-silver;
+    }
+  }
+
+  &__link {
+    color: $white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}

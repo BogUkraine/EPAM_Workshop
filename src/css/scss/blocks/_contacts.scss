@@ -1,0 +1,25 @@
+.contacts {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.contact {
+
+    text-align: center;
+
+    &__title {
+        color: $oceanic;
+        margin: 0;
+    }
+
+    &__mail {
+        font-weight: 700;
+        margin: 0;
+    }
+
+    &__phone {
+        margin: 0;
+    }
+
+}

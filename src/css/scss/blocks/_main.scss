@@ -1,0 +1,41 @@
+.main {
+
+    &__url {
+        margin-top: 40px;
+    }
+
+    &__advert {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 120px;
+        list-style: none;
+    }
+
+    &__advert > li {
+        margin: 5px 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 100px 0;
+    }
+
+    &__content {
+        flex: 5;
+        margin-right: 20px;
+    }
+
+    &__asider {
+        display: flex;
+        flex: 2;
+        height: 800px;
+    }
+}
+
+.main__advert > * {
+    width: 100%;
+    text-align: center;
+}

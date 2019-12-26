@@ -1,0 +1,37 @@
+.photos {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+
+    &__rows {
+        display: flex;
+        width: $content-width;
+    }
+
+    &__item {
+
+        &_first,
+        &_second,
+        &_fourth,
+        &_sixth,
+        &_seventh,
+        &_nineth {
+            // flex: 1;
+        width: 320px;
+        height: 320px;
+        }
+
+        &_third,
+        &_fifth,
+        &_eighth {
+            //flex: 2;
+            width: 640px;
+            height: 320px;
+        }
+    }
+
+    &__item {
+        object-fit: cover;
+    }
+}
